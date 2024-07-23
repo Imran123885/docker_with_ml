@@ -3,7 +3,7 @@ FROM python:3.8-slim-buster
 # upgrade pip
 RUN pip install --upgrade pip 
 
-# Copiying all the files to source directory
+# Copying all the files to source directory
 COPY . /src
 
 # Set working directory to previously added source directory
